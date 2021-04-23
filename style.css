@@ -6,6 +6,11 @@ body{
     background-color: antiquewhite;
     padding: 2rem;
     margin-top: 0px;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.mid{
+text-align: center;
 }
 textarea {
     display: block;
@@ -16,6 +21,19 @@ textarea {
 }
 #btn-translate{
     margin: auto;
+    background-color: black;
+    color: white;
+    padding:8px;
+    border-radius: 1rem;
+
+}
+#btn-translate:hover{
+    margin: auto;
+    background-color: white;
+    color: black;
+    padding:8px;
+    border-radius: 1rem;
+
 }
 .output {
     border: 1px solid black;
@@ -24,4 +42,11 @@ textarea {
     margin: 1rem;
     padding: 1rem;
 
+}
+.ft{
+    margin-top: 3rem;
+   background-color: antiquewhite; 
+   padding:3rem;
+  
+   
 }
